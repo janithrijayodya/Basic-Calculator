@@ -106,4 +106,11 @@ function cal(){
         default: 
             console.log("invalid")
     }
+
+let btnClear = document.getElementById("btnClear");
+
+btnClear.addEventListener("click", e=>{
+    txtDisplay.value="";
+});
+
 }
